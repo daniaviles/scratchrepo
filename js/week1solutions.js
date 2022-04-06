@@ -10,7 +10,8 @@ function even_or_odd(number) {
     }
   }
 
-  
+
+
 //      RETURN NEGATIVE
 
 //   In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?
@@ -33,6 +34,7 @@ function even_or_odd(number) {
   }
 
 
+
 //    BASIC MATHEMATICAL OPERATIONS
 
 // Your task is to create a function that does four basic mathematical operations.
@@ -50,4 +52,19 @@ function even_or_odd(number) {
     }else if(operation === '/'){
       return(value1/value2)
     }
+  }
+
+  //       SQUARE(N) SUM
+
+
+//   Complete the square sum function so that it squares each number passed into it and then sums the results together.
+
+//   For example, for [1, 2, 2] it should return 9 because 1^2 + 2^2 + 2^2 = 9.
+
+  function squareSum(numbers){
+    let sum = 0
+    for (let i = 0; i < numbers.length; i++){
+      sum += numbers[i] ** 2
+    }
+    return sum
   }
