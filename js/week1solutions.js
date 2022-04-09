@@ -102,3 +102,19 @@ var stringToNumber = function(str){
   str = Number(str)// put your code here
   return str;
 }
+
+
+
+// CONVERT A BOOLEAN TO A STRING
+
+// Implement a function which converts the given boolean value into its string representation.
+
+// Note: Only valid inputs will be given.
+
+function booleanToString(b){
+  if(b !== false){
+    return("true")
+  }else{
+    return("false")
+  }
+}
