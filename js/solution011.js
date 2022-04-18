@@ -19,3 +19,8 @@ function sumTwoSmallestNumbers(numbers) {
   //3. I sliced the array, isolating indexes 0 and 1
 
   //4. I returned the sum of indexes 0 and 1
+
+  // You actually didn't need to slice. You could have:
+  // numbers = numbers.sort(function(a,b){
+  //    return a -b}
+  // return numbers [0] + numbers [1];
