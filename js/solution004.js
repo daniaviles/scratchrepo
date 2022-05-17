@@ -1,0 +1,18 @@
+// Given the triangle of consecutive odd numbers:
+//            1
+//         3     5
+//      7     9    11
+//   13    15    17    19
+// 21    23    25    27    29
+
+// ...
+
+// Calculate the sum of the numbers in the nth row of this triangle (starting at index 1) e.g.: (Input --> Output)
+
+function rowSumOddNumbers(n) {
+	return n * n * n;
+}
+
+// What is the sum of each row?
+// What is the pattern you see of the sum of each row?
+// The sum is equal to the row number multiplied by itself three times.
