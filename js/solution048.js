@@ -5,14 +5,14 @@
 
 // What if the string is empty? Then the result should be empty object literal, {}.
 
-function countAllCharacters(str) {
-    var a = str.split("");
-    var obj = {};
-    a.forEach(function(s) {
-      if (obj[s]) {
-        obj[s] = obj[s] + 1;
+function count(string) {
+    let newString = string.split('');
+    let obj = {};
+    newString.forEach(function(element) {
+      if (obj[element]) {
+        obj[element] = obj[element] + 1;
       } else {
-        obj[s] = 1;
+        obj[element] = 1;
       }
     });
     return obj;
